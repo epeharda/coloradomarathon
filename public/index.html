@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html data-ng-app="MainApp">
 	<head >
-		<title>FedCup 5k</title>
+		<title>The Colorado Marathon</title>
 		<!--angular uses this base element which path to use when it gets any front end resource- this is the root b/c of "/"-->
 		<base href='/'>
+		<script type="text/javascript">
+
+
+
+		</script>
 	</head>
 
 	<body>
@@ -12,7 +17,7 @@
 			<nav class="navbar navbar-default">
 	            <div class="container">
 	                <div class="navbar-header">
-	                    <a class="navbar-brand" href="/">Welcome to the 2016 FedCup5k!</a>
+	                    <a class="navbar-brand" href="/"> Welcome to the 2016 Colorado Marathon!</a>
 	                </div>
 
 	                <!--default menu bar below-->
@@ -26,31 +31,32 @@
             </nav>
 
 
-				<h1 class="titleText pull-left">FedCup 5k</h1>
+				<h1 class="titleText pull-left"><img class="flagimg" src="img/coloradoflag.jpg"> The Colorado Marathon</h1>
 				<!--got code below from mycountdown.org-->
 				<div class="countdownContainer pull-right">
 					<noscript>
 						<div align="center" class="noCountdown">
 						</div>
 					</noscript>
-					<script type="text/javascript" src="http://mycountdown.org/countdown.php?cp2_Hex=040244&cp1_Hex=fff9fa&img=1&hbg=0&fwdt=180&lab=1&ocd=My Countdown&text1=FedCup 5k&text2=&group=My Countdown&countdown=My Countdown&widget_number=3015&event_time=1463866620&timezone=UTC">
+					<script type="text/javascript" src="img/pic1.jpg">
 					</script>
 				</div>
-				<div class="photobanner">
-					<img class="first" src="img/pic1.jpg"/>
-					<img src="img/pic2.jpg"/>
-					<img src="img/pic3.jpg"/>
-					<img src="img/pic4.jpg"/>
-					<img src="img/pic5.jpg"/>
-					<img src="img/pic6.jpg"/>
-					<img src="img/pic7.jpg"/>
-					<img src="img/pic8.jpg"/>
-					<img src="img/pic9.jpg"/>
-					<img src="img/pic1.jpg"/>
-					<img src="img/pic2.jpg"/>
-					<img src="img/pic3.jpg"/>
-					<img src="img/pic4.jpg"/>
-					<img src="img/pic5.jpg"/>
+				<div id="slides" >
+					<div >
+						<img class="slideimage" src="img/pic5.jpg">
+					</div>
+					<div >
+						<img class="slideimage" src="img/pic4.jpg">
+					</div>
+					<div >
+						<img class="slideimage" src="img/pic3.jpg">
+					</div>
+					<div >
+						<img class="slideimage" src="img/pic2.jpg">
+					</div>
+					<div >
+						<img class="slideimage" src="img/pic1.jpg">
+					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
@@ -82,6 +88,7 @@
 		<script type="text/javascript" src="src/factories.js"></script>
 		<script type="text/javascript" src="src/filter.js"></script>
 		<script type="text/javascript" src="src/style.js"></script>
+		<script type="text/javascript" src="src/slideshow.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
 
