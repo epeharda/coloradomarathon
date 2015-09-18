@@ -21,7 +21,11 @@ body{
     display:none;
   }
   .twitter{
-    margin-top:230px;
+    margin-top:250px;
+  }
+    .navbar{
+    margin-left:auto;
+    margin-right:auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width:930px) {
@@ -40,6 +44,7 @@ body{
     #slides{
     height:600px;
   }
+
 }
 
 
@@ -54,11 +59,13 @@ body{
 }
 .navbar{
   margin-bottom:0;
-  z-index:100;
+  z-index:10;
   width:100%;
   position:absolute;
-  margin-right:auto;
-  margin-left:auto;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-top:20px;
 }
 .navbar-default .navbar-brand{
   color:white;
@@ -72,7 +79,6 @@ body{
 }
 .page-header {
     width: 100%;
-    /*height:600px;*/
     margin: 0px;
     background: white;
     padding-bottom:0px;
@@ -81,9 +87,11 @@ body{
 #slides { 
     position: relative; 
     width: 100%; 
-    /*height:600px;*/
-    box-shadow:20px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     overflow:hidden;
+
 }
 .slideimage{
   width:100%;
@@ -116,8 +124,11 @@ body{
   /*rgba(211, 211, 211, 0.8);*/
   margin-left:25px;
   padding:10px;
-  top:50px;
+  top:60px;
   opacity:.75;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .flagimg{
@@ -207,7 +218,10 @@ body{
 .twitter{
   height:40px;
   width:40px;
-  /*opacity:0.5;*/
+}
+
+.rightSpace{
+  margin-right:30px;
 }
 
 /*styling for the home page content*/
@@ -238,7 +252,7 @@ body{
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);*/
 }
 .footer{
-  background-color:black;
+  background-color:gray;
   padding:10px;
 }
 .centered{
