@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(window).load(function() {
     console.log( "ready!" );
 
     $("#slides > div:gt(0)").hide();
