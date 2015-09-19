@@ -82,7 +82,7 @@ body{
     margin: 0px;
     background: white;
     padding-bottom:0px;
-    border-bottom:0px;
+    border-bottom:1px;
 }
 #slides { 
     position: relative; 
@@ -278,5 +278,44 @@ body{
 .elevation img{
   width:100%;
 }
+.homeImage{
+  height:100px;
+  width:100px;
+}
+.marathonvideo{
+  width:560px;
+  height:315px;
+  border-style:groove;
+  border-width:8px;
+  border-color:blue;
+}
+
+
+/*testing tabs below*/
+
+.ultab {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.litab {
+    float: left;
+    border: 1px solid #000;
+    border-bottom-width: 0;
+    margin: 3px 3px 0px 3px;
+    padding: 5px 5px 0px 5px;
+    background-color: #CCC;
+    color: #696969;
+}
+#mainView {
+    border: 1px solid black;
+  clear: both;
+  padding: 0 1em;
+}
+.active {
+    background-color: #FFF;
+    color: #000;
+}
+
 
 

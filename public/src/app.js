@@ -3,11 +3,11 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 	$routeProvider	
 		.when('/',{
 			templateUrl:'views/home.html',
-			contorller: 'HomeController'
+			controller: 'HomeController'
 		})	
-		.when('/course', {
-			templateUrl: 'views/course.html',
-			controller: 'CourseController'
+		.when('/raceinfo', {
+			templateUrl: 'views/raceinfo.html',
+			controller: 'TabsCtrl'
 		})
 		.when('/results',{
 			templateUrl: 'views/results.html',
@@ -32,11 +32,25 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 		.when('/pastresults',{
 			templateUrl: 'views/pastresults.html',
 			controller: 'ResultsController'
-		})
-
-		
-
+		})		
 		//this is incase we need to add the #!
 	$locationProvider.html5Mode(
 	true);
 });
+
+/*
+angular.module('TabsApp',['ngRoute', 'ngResource'])
+.config(function($routeProvider, $locationProvider){
+	$routeProvider	
+
+		.when('/raceinfo', {
+			templateUrl: 'views/raceinfo.html',
+			controller: 'TabsCtrl'
+		})
+	
+		//this is incase we need to add the #!
+	$locationProvider.html5Mode(
+	true);
+});*/
+
+

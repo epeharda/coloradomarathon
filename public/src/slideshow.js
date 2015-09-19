@@ -5,9 +5,11 @@ $(window).load(function() {
 
 	setInterval(function() { 
 	  $('#slides > div:first')
-	    .fadeOut(1000)
+	    //.fadeOut(1000)
+	    .toggle("left")
 	    .next()
-	    .fadeIn(1000)
+	    //.fadeIn(1000)
+	    .toggle("left")
 	    .end()
 	    .appendTo('#slides');
 	},5000);

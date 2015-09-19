@@ -1,0 +1,39 @@
+<div>
+    <div id="tabs">
+        <ul class="ultab">
+            <li class="litab"
+            	ng-repeat="tab in tabs" 
+                ng-class="{active:isActiveTab(tab.url)}" 
+                ng-click="onClickTab(tab)">{{tab.title}}</li>
+        </ul>
+        <div id="mainView">
+            <div ng-include="currentTab"></div>
+        </div>
+    </div>
+    <script type="text/ng-template" id="one.tpl.html">
+		<div id="viewOne">
+			<h1>Marathon</h1>
+			<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc.</p>
+		</div>
+	</script>
+	
+	<script type="text/ng-template" id="two.tpl.html">
+		<div id="viewTwo">
+			<h1>Half Marathon</h1>
+			<p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu.</p>
+		</div>
+	</script>
+	
+	<script type="text/ng-template" id="three.tpl.html">
+		<div id="viewThree">
+			<h1>5k</h1>
+			<p>In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu.</p>
+		</div>
+	</script>
+	<script type="text/ng-template" id="four.tpl.html">
+		<div id="viewFour">
+			<h1>10k</h1>
+			<p>In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu.</p>
+		</div>
+	</script>
+</div>

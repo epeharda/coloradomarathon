@@ -2,12 +2,11 @@
 <html data-ng-app="MainApp">
 	<head >
 		<title>The Colorado Marathon</title>
-		<!--angular uses this base element which path to use when it gets any front end resource- this is the root b/c of "/"-->
+		<link rel="shortcut icon" type="image/x-icon" href="img/coicon.ico">
 		<base href='/'>
 		<script type='text/javascript' src="lib/jquery/dist/jquery.min.js"></script>
-				<link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css">
 		<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-
 		<script type="text/javascript" src="lib/angular/angular.min.js"></script>
 		<script type="text/javascript" src="lib/angular-route/angular-route.min.js"></script>
 		<script type="text/javascript" src="lib/angular-resource/angular-resource.min.js"></script>
@@ -30,10 +29,9 @@
 		                    <a class="navbar-brand" href="/"> Welcome to the 2016 Colorado Marathon!</a>
 		                </div>
 
-		                <!--default menu bar below-->
 		                <ul class="nav navbar-nav navbar-right">
 		                    <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
-		                    <li><a href="/course"><i class="fa fa-shield"></i>Courses</a></li>
+		                    <li><a href="/raceinfo"><i class="fa fa-shield"></i>Race Info</a></li>
 		                    <li><a href="/results"><i class="fa fa-comment"></i>Results</a></li>
 		                    <li><a href="/photos"><i class="fa fa-comment"></i>Photos</a></li>
 		                </ul>
@@ -42,7 +40,6 @@
 
 
 				<h1 class="titleText pull-left"><img class="flagimg" src="img/coloradoflag.jpg"> The Colorado Marathon</h1>
-				<!--got code below from mycountdown.org-->
 				<div class="countdownContainer pull-right">
 					<noscript>
 						<div align="center" class="noCountdown">
@@ -87,7 +84,6 @@
 				</div>
 				
 			</div>
-					<!--the place holder to render our view dependent on the route-->
 			<div class="row">
 				<div class="col-sm-12" ng-view>
 					
@@ -98,7 +94,8 @@
 			<div class="footer">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="sponsorthank">Thank you to our sponsors!</h1>
+						<h1 class="sponsorthank">The Colorado Marathon would like to thank all of our sponsors for their support.</h1>
+						<h1 class="sponsorthank">Interested in Sponsorship opportunities with the Colorado Marathon? <a href="https://www.simpleracereg.com/uploads/CM%20Sponsor%20Package%202015.pdf">Click Here!</a></h1>
 					</div>
 				</div>
 
@@ -112,8 +109,5 @@
 				</div>
 			</div>
 		</div>
-
-
-
 	</body>
 </html>
