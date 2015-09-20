@@ -16,11 +16,17 @@ angular.module('MainApp')
             title: 'Half Marathon',
             url: 'two.tpl.html'
         }, {
-            title: '5k',
+            title: '10k',
             url: 'three.tpl.html'
     	},{
-            title: '10k',
+            title: '5k',
             url: 'four.tpl.html'
+        },{
+            title: 'Race Fees',
+            url: 'five.tpl.html'
+        },{
+            title: 'Lodging',
+            url: 'six.tpl.html'
     }];
 
     $scope.currentTab = 'one.tpl.html';

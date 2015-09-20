@@ -57,6 +57,7 @@ body{
   border:none;
   color:white;
 }
+
 .navbar{
   margin-bottom:0;
   z-index:10;
@@ -69,9 +70,11 @@ body{
 }
 .navbar-default .navbar-brand{
   color:white;
+  font-size:24px;
 }
 .navbar-default .navbar-nav>li>a{
   color:white;
+  font-size:24px;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -272,12 +275,7 @@ body{
 
 }
 /*styling for course description page*/
-.courseMap img{
-  width:100%;
-}
-.elevation img{
-  width:100%;
-}
+
 .homeImage{
   height:100px;
   width:100px;
@@ -304,8 +302,14 @@ body{
     border-bottom-width: 0;
     margin: 3px 3px 0px 3px;
     padding: 5px 5px 0px 5px;
-    background-color: #CCC;
+    background-color: #CCC ; 
     color: #696969;
+    font-size:30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 3px -3px 10px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px -3px 10px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px -3px 10px rgba(50, 50, 50, 0.75);
 }
 #mainView {
     border: 1px solid black;
@@ -313,8 +317,26 @@ body{
   padding: 0 1em;
 }
 .active {
-    background-color: #FFF;
+    background-color: lawngreen; /*#FFF;*/
     color: #000;
+}
+.importantMessage{
+  color:red;
+  font-weight:bold;
+}
+.orangeHeader{
+  color:orange;
+  text-decoration: underline;
+}
+p{
+  font-size:20px;
+}
+.centeredText{
+  text-align:center;
+}
+.courseMap{
+  width: 100%;
+  height:400px;
 }
 
 
