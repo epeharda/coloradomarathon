@@ -11,16 +11,20 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 		})
 		.when('/results',{
 			templateUrl: 'views/results.html',
-			controller: 'ResultsController'
+			controller: ''
 		})
 		.when('/photos',{
 			templateUrl: 'views/photos.html',
-			controller: 'ResultsController'
+			controller: ''
 		})
 		.when('/contact',{
 			templateUrl: 'views/contact.html',
 			controller: 'EmailController'
 		})	
+		.when('/faq',{
+			templateUrl: 'views/faq.html',
+			controller: ''
+		})
 		//this is incase we need to add the #!
 	$locationProvider.html5Mode(
 	true);

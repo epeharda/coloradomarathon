@@ -28,8 +28,9 @@ body{
     margin-right:auto;
   }
   .topSpace{
-    margin-top:300px;
+    margin-top:400px;
   }
+
 }
 @media screen and (min-width: 768px) and (max-width:990px) {
   .page-header {
@@ -41,19 +42,36 @@ body{
   .topSpace{
     margin-top:200px;
   }
+  .topTitle{
+    margin-top:100px;
+  }
 
 }
-@media screen and (min-width: 990px){
+@media screen and (min-width: 990px) and (max-width: 1200px){
   .page-header {
     height:600px;
   }
-    #slides{
+  #slides{
+    height:600px;
+  }
+  .topSpace{
+    margin-top:150px;
+  }
+  .topTitle{
+    margin-top:100px;
+  }
+
+}
+@media screen and (min-width: 1200px){
+  .page-header {
+    height:600px;
+  }
+  #slides{
     height:600px;
   }
   .topSpace{
     margin-top:100px;
-  }
-
+  }  
 }
 
 
@@ -313,27 +331,27 @@ body{
 }
 .litab {
     float: left;
-    border: 1px solid #000;
-    border-bottom-width: 0;
+    /*border: 1px solid #000;
+    border-bottom-width: 0;*/
     margin: 3px 3px 0px 3px;
     padding: 5px 5px 0px 5px;
     background-color: #CCC ; 
     color: #696969;
     font-size:30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
     -webkit-box-shadow: 3px -3px 10px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    3px -3px 10px rgba(50, 50, 50, 0.75);
     box-shadow:         3px -3px 10px rgba(50, 50, 50, 0.75);
 }
 #mainView {
-    border: 1px solid black;
+  /*  border: 1px solid black;*/
   clear: both;
   padding: 0 1em;
 }
 .active {
-    background-color: khaki; /*rgba(20, 140, 11, 0.73); /*#FFF;*/
-    color: #000;
+    background-color: rgba(20, 140, 11, 0.73); /*#FFF;*/
+    color: white;
 }
 .importantMessage{
   color:red;
@@ -364,7 +382,13 @@ textarea{
   margin-left:auto;
   margin-right:auto;
 }
-/*.topSpace{
-  margin-top:100px;
-}*/
+.commonInfo{
+  padding:20px;
+  background-color:lightgray;
+}
+.raceInfoPics{
+  width:80%;
+  padding:20px;
+}
+
 
