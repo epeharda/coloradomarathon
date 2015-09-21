@@ -390,5 +390,8 @@ textarea{
   width:80%;
   padding:20px;
 }
-
+.registerImage{
+  width:40%;
+  display:block;
+}
 
