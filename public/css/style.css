@@ -88,7 +88,12 @@ body{
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-  color:white;
+  color:black;
+  background-color:white;
+}
+.navbar-default .navbar-nav>li>a:active{
+  color:black;
+  background-color:white;
 }
 .page-header {
     width: 100%;
