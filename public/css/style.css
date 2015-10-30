@@ -232,8 +232,8 @@ body{
   margin:5px;
 }
 .sponsors{
-  width:150px;
-  height:150px;
+  width:120px;
+  height:120px;
   margin:5px;
   /*margin:30px;*/
   background-color:white;
@@ -317,8 +317,8 @@ body{
   padding: 0 1em;
 }
 .active {
-    background-color: khaki; /*rgba(20, 140, 11, 0.73); /*#FFF;*/
-    color: #000;
+    background-color: rgba(20, 140, 11, 0.73); /*rgba(20, 140, 11, 0.73); /*#FFF;*/
+    color: white;
 }
 .importantMessage{
   color:red;
@@ -349,4 +349,14 @@ textarea{
   margin-left:auto;
   margin-right:auto;
 }
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
+          color: #555555;
+          cursor: default;
+          background-color: white;
+          border: 1px solid #dddddd;
+          border-bottom-color: transparent;
+          } 
 
