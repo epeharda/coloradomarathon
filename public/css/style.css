@@ -350,12 +350,9 @@ body{
   padding: 0 1em;
 }
 .active {
-<<<<<<< HEAD
-    background-color: rgba(20, 140, 11, 0.73); /*rgba(20, 140, 11, 0.73); /*#FFF;*/
-=======
-    background-color: rgba(20, 140, 11, 0.73); /*#FFF;*/
->>>>>>> 27ed81d0d91996b50b360147e0b15d84d3430598
-    color: white;
+    /*background-color: rgba(20, 140, 11, 0.73); /*rgba(20, 140, 11, 0.73); /*#FFF;*/
+    /*color: white;*/
+    background-color:white;
 }
 .importantMessage{
   color:red;
