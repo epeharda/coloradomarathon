@@ -27,25 +27,53 @@ body{
     margin-left:auto;
     margin-right:auto;
   }
+  .topSpace{
+    margin-top:400px;
+  }
+
 }
-@media screen and (min-width: 768px) and (max-width:930px) {
+@media screen and (min-width: 768px) and (max-width:990px) {
   .page-header {
     height:400px;
   }
   #slides{
     height:400px;
   }
+  .topSpace{
+    margin-top:200px;
+  }
+  .topTitle{
+    margin-top:100px;
+  }
 
 }
-@media screen and (min-width: 930px){
+@media screen and (min-width: 990px) and (max-width: 1200px){
   .page-header {
     height:600px;
   }
-    #slides{
+  #slides{
     height:600px;
+  }
+  .topSpace{
+    margin-top:150px;
+  }
+  .topTitle{
+    margin-top:100px;
   }
 
 }
+@media screen and (min-width: 1200px){
+  .page-header {
+    height:600px;
+  }
+  #slides{
+    height:600px;
+  }
+  .topSpace{
+    margin-top:100px;
+  }  
+}
+
 
 
 
@@ -78,7 +106,12 @@ body{
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-  color:white;
+  color:black;
+  background-color:white;
+}
+.navbar-default .navbar-nav>li>a:active{
+  color:black;
+  background-color:white;
 }
 .page-header {
     width: 100%;
@@ -298,26 +331,30 @@ body{
 }
 .litab {
     float: left;
-    border: 1px solid #000;
-    border-bottom-width: 0;
+    /*border: 1px solid #000;
+    border-bottom-width: 0;*/
     margin: 3px 3px 0px 3px;
     padding: 5px 5px 0px 5px;
     background-color: #CCC ; 
     color: #696969;
     font-size:30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
     -webkit-box-shadow: 3px -3px 10px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    3px -3px 10px rgba(50, 50, 50, 0.75);
     box-shadow:         3px -3px 10px rgba(50, 50, 50, 0.75);
 }
 #mainView {
-    border: 1px solid black;
+  /*  border: 1px solid black;*/
   clear: both;
   padding: 0 1em;
 }
 .active {
+<<<<<<< HEAD
     background-color: rgba(20, 140, 11, 0.73); /*rgba(20, 140, 11, 0.73); /*#FFF;*/
+=======
+    background-color: rgba(20, 140, 11, 0.73); /*#FFF;*/
+>>>>>>> 27ed81d0d91996b50b360147e0b15d84d3430598
     color: white;
 }
 .importantMessage{
@@ -348,6 +385,18 @@ textarea{
   width:50%;
   margin-left:auto;
   margin-right:auto;
+}
+.commonInfo{
+  padding:20px;
+  background-color:lightgray;
+}
+.raceInfoPics{
+  width:80%;
+  padding:20px;
+}
+.registerImage{
+  width:40%;
+  display:block;
 }
 
 .navbar-default .navbar-nav>li>a:focus, 
