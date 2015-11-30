@@ -20,6 +20,14 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 		.when('/contact',{
 			templateUrl: 'views/contact.html',
 			controller: 'EmailController'
+		})
+		.when('/lodging',{
+			templateUrl: 'views/lodging.html',
+			controller: ''
+		})
+		.when('/givingback',{
+			templateUrl: 'views/givingBack.html',
+			controller: ''
 		})	
 		.when('/faq',{
 			templateUrl: 'views/faq.html',

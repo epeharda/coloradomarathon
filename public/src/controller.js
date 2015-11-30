@@ -24,10 +24,7 @@ angular.module('MainApp')
         },{
             title: 'Race Fees',
             url: 'five.tpl.html'
-        },{
-            title: 'Lodging',
-            url: 'six.tpl.html'
-    }];
+      }];
 
     $scope.currentTab = 'one.tpl.html';
 
