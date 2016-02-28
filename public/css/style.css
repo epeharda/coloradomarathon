@@ -200,9 +200,8 @@ body{
 
 /*header styles*/
 .navbar-default{
-  /*background-color: rgba(20, 140, 11, 0.73);*/
-  background-color:#7D1935;
-  /*border-color:#282828;*/
+  /*background-color:#7D1935; /*maroon*/
+  background-color:#118C4E;
   border:none;
   color:white;
 }
@@ -219,11 +218,11 @@ body{
 }
 .navbar-default .navbar-brand{
   color:white;
-  font-size:20px;
+  font-size:16px;
 }
 .navbar-default .navbar-nav>li>a{
   color:white;
-  font-size:20px;
+  font-size:16px;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -401,7 +400,8 @@ body{
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);*/
 }
 .footer{
-  background-color:#4A96AD;
+  /*background-color:#4A96AD;/*turquoise*/
+  background-color:#585858;
   padding:10px;
 }
 .centered{
@@ -434,12 +434,10 @@ body{
 }
 .litab {
     float: left;
-    /*border: 1px solid #000;
-    border-bottom-width: 0;*/
-    /*margin: 3px 3px 0px 3px;*/
     padding: 5px 5px 0px 5px;
-    background-color: #4A96AD;/*#CCC;*/
-    color: #F5F3EE ;/*#696969;*/
+    /*background-color: #4A96AD;/*turquoise*/
+    background-color: #585858;
+    color: #F5F3EE ;
     font-size:24px;
     border-radius:5px;
     width:200px;
@@ -449,22 +447,20 @@ body{
     margin-left:10px;
     margin-right:10px;
     margin-bottom:10px;
-    /*border-top-left-radius: 10px;
-    border-top-right-radius: 10px;*/
     -webkit-box-shadow: 3px -3px 10px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    3px -3px 10px rgba(50, 50, 50, 0.75);
     box-shadow:         3px -3px 10px rgba(50, 50, 50, 0.75);
 }
 .animateTitle{
-  font-size:48px;
+  font-size:30px;
     -webkit-animation-name: grow; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
     animation-name: grow;
     animation-duration: 2s;
 }
 @keyframes grow{
-    from {font-size:36px;}
-    to {font-size:48px;}
+    from {font-size:30px;}
+    to {font-size:36px;}
 }
 
 #mainView {
@@ -474,17 +470,17 @@ body{
   padding: 0 1em;
 }
 .active {
-    /*background-color: rgba(20, 140, 11, 0.73); /*rgba(20, 140, 11, 0.73); /*#FFF;*/
-    /*color: white;*/
-    background-color: #7D1935;/*white;*/
+    /*background-color: #7D1935;/*maroon*/
+    background-color:#118C4E;
 }
 .importantMessage{
-  color:red;
+  color:#FF9009
+  ;
   font-weight:bold;
 }
 .orangeHeader{
-  /*color:orange;*/
-  color:#7D1935;
+  /*color:#7D1935;/*maroon*/
+  color:#118C4E;
   text-decoration: underline;
 }
 p{
@@ -527,5 +523,20 @@ textarea{
           background-color: white;
           border: 1px solid #dddddd;
           border-bottom-color: transparent;
-          } 
+}
+
+h1{
+  font-size:24px;
+} 
+h2{
+  font-size:20px;
+}
+h3{
+  font-size:18px;
+}
+p{
+  font-size:16px;
+}
+
+
 
