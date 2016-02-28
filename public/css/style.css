@@ -1,7 +1,6 @@
 
 body{
-    /*background-color:#e7e7e7;*/
-    background-color:#F5F3EE;
+    background-color:lightgray;/*#F5F3EE;*/
     color:black;
 }
 
@@ -227,11 +226,11 @@ body{
 
 .navbar-default .navbar-nav>li>a:hover{
   color:black;
-  background-color:white;
+  background-color:#C1E1A6;
 }
 .navbar-default .navbar-nav>li>a:active{
   color:black;
-  background-color:white;
+  background-color:#C1E1A6;
 }
 .page-header {
     width: 100%;
@@ -520,7 +519,7 @@ textarea{
 .navbar-default .navbar-nav>li>a:active {
           color: #555555;
           cursor: default;
-          background-color: white;
+          background-color:#C1E1A6;
           border: 1px solid #dddddd;
           border-bottom-color: transparent;
 }
