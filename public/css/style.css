@@ -50,10 +50,9 @@ body{
     border-color:blue;
   }
   .sponsors{
-    width:50%;
-    height:50%;
-    margin-left:25%;
-    margin-top:15px;
+    width:100%;
+    padding:5px;
+    margin-top:30px;
     background-color:white;
   }
 
@@ -98,10 +97,9 @@ body{
     width:300px;
   }
   .sponsors{
-    width:50%;
-    height:50%;
-    margin-left:25%;
-    margin-top:15px;
+    width:100%;
+    padding:5px;
+    margin-top:30px;
     background-color:white;
   }
 }
@@ -142,11 +140,9 @@ body{
     width:450px;
   }
   .sponsors{
-    width:90%;
-    height:200px;
-    padding:5%;
-    /*margin:5px;*/
-    /*margin:30px;*/
+    width:100%;
+    margin-top:30px;
+    padding:5px;
     background-color:white;
   }
 }
@@ -184,11 +180,9 @@ body{
     width:600px;
   }
   .sponsors{
-    width:90%;
-    height:200px;
-    padding:5%;
-    /*margin:5px;*/
-    /*margin:30px;*/
+    width:100%;
+    padding:5px;
+    margin-top:30px;
     background-color:white;
   }
 }
@@ -321,7 +315,7 @@ body{
     margin-left: 0px;
  }
  100% {
- 	/*adjusted the demo of 2125 to 3460 which is the cumulative widths of all non-repeatign images plus 50px for the margin for smooth transition*/
+  /*adjusted the demo of 2125 to 3460 which is the cumulative widths of all non-repeatign images plus 50px for the margin for smooth transition*/
     margin-left: -3460px;
  }
  
