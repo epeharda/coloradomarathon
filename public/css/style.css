@@ -26,6 +26,17 @@ body{
     margin-left:auto;
     margin-right:auto;
   }
+  .dropdown-toggle{
+    margin-left:auto;
+    width:80px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color:white;
+    font-size:16px;
+  }
+  .mediaDrop {
+    color:white;
+  }
   .topSpace{
     margin-top:100px;
   }
@@ -193,10 +204,28 @@ body{
 
 /*header styles*/
 .navbar-default{
-  /*background-color:#7D1935; /*maroon*/
   background-color:#118C4E;
   border:none;
   color:white;
+}
+
+.dropdown-toggle{
+  background-color:#118C4E;
+  border:none;
+  color:white;
+  border:none;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:16px;
+
+}
+.dropdown-toggle .dropdown-menu>li:hover{
+  color:black;
+  background-color:#C1E1A6;
+}
+.dropdown-toggle .dropdown-menu>li:hover{
+  color:black;
+  background-color:#C1E1A6;
 }
 
 .navbar{
