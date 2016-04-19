@@ -37,11 +37,6 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 			templateUrl: 'views/faq.html',
 			controller: ''
 		})
-		.otherwise({
-    		/*redirectTo: function() {
-        		window.location = "https:/";
-    		}*/
-		});
 		//this is incase we need to add the #!
 	$locationProvider.html5Mode(
 	true);
