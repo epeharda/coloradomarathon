@@ -22,8 +22,11 @@ angular.module('MainApp')
             title: '5k',
             url: 'four.tpl.html'
         },{
+						title: 'Relay',
+						url: 'five.tpl.html'
+					},{
             title: 'Race Fees',
-            url: 'five.tpl.html'
+            url: 'six.tpl.html'
       }];
 
     $scope.currentTab = 'one.tpl.html';
@@ -31,7 +34,7 @@ angular.module('MainApp')
     $scope.onClickTab = function (tab) {
         $scope.currentTab = tab.url;
     }
-    
+
     $scope.isActiveTab = function(tabUrl) {
         return tabUrl == $scope.currentTab;
     }
@@ -77,7 +80,7 @@ angular.module('MainApp')
             };
             var apiURL = "https://mandrillapp.com/api/1.0/messages/send.json";
             $http.post(apiURL, mailJSON).
-              success(function(data, status, headers, config) {                
+              success(function(data, status, headers, config) {
                 $scope.form={};
                 console.log('successful email send.');
                 console.log('status: ' + status);
