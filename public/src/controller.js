@@ -92,7 +92,7 @@ angular.module('MainApp')
               }).error(function(data, status, headers, config) {
                 console.log('error sending email.');
                 console.log('status: ' + status);
-                $scope.resultMessage="Your message failed to send.  Please email ericapeharda@gmail.com";
+                $scope.resultMessage="Your message failed to send.  Please email oza.klanjsek@gmail.com";
               });
         };
 });
