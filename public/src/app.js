@@ -1,10 +1,10 @@
 angular.module('MainApp',['ngRoute', 'ngResource'])
 .config(function($routeProvider, $locationProvider){
-	$routeProvider	
+	$routeProvider
 		.when('/',{
 			templateUrl:'views/home.html',
 			controller: 'HomeController'
-		})	
+		})
 		.when('/raceinfo', {
 			templateUrl: 'views/raceinfo.html',
 			controller: 'TabsCtrl'
@@ -28,7 +28,11 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 		.when('/givingback',{
 			templateUrl: 'views/givingBack.html',
 			controller: ''
-		})	
+		})
+		.when('/gb2017',{
+			templateUrl: 'views/gb2017.html',
+			controller: ''
+		})
 		.when('/sponsors',{
 			templateUrl: 'views/sponsors.html',
 			controller: ''
@@ -41,7 +45,3 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 	$locationProvider.html5Mode(
 	true);
 });
-
-
-
-
