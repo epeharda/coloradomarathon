@@ -37,6 +37,10 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 			templateUrl: 'views/sponsors.html',
 			controller: ''
 		})
+		.when('/blog',{
+			templateUrl: 'views/blog.html',
+			controller: ''
+		})
 		.when('/faq',{
 			templateUrl: 'views/faq.html',
 			controller: ''
