@@ -29,8 +29,8 @@ angular.module('MainApp',['ngRoute', 'ngResource'])
 			templateUrl: 'views/givingBack.html',
 			controller: ''
 		})
-		.when('/gb2017',{
-			templateUrl: 'views/gb2017.html',
+		.when('/gb2018',{
+			templateUrl: 'views/gb2018.html',
 			controller: ''
 		})
 		.when('/sponsors',{
